@@ -17,7 +17,7 @@ const WatchManager = () => {
   const [message, setMessage] = useState('');
   const [editMode, setEditMode] = useState(false);
 
-  const baseUrl = `${config.url}/watchapi`;
+  const baseUrl = `${import.meta.env.VITE_API_URL}/watchapi`;
 
   useEffect(() => {
     fetchAllWatches();
