@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class WatchapiSpringbootApplication extends SpringBootServletInitializer
+public class WatchapiSpringbootApplication
 {
 
 	public static void main(String[] args) 
